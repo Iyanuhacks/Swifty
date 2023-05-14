@@ -9,3 +9,7 @@ sqlparse==0.3.1
 toml==0.10.1
 django-ckeditor
 gunicorn==20.1.0
+whitenoise==6.2.0
+Brotli==1.0.9
+python-dotenv==0.21.0
+dj-database-url==1.2.0
