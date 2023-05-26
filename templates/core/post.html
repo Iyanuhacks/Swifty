@@ -34,7 +34,7 @@
         </div>
         {% endif %}
         <div class="card-text mt-5 p-4">
-        <p>{{post.content|safe}}</p> <br>
+       <p class="card-text mb-auto py-2">{{ post.content|safe|striptags|truncatechars:100 }}</p>
         </div>
       </div>
   
