@@ -13,7 +13,7 @@
         <div class="form-group">
           {{ form.title.label_tag }}
           <input type="text" class="form-control {% if form.title.errors %}is-invalid{% endif %}" id="id_title"
-            name="title" value='{{ form.title.value|default }}'>
+            name="title" value='{{ form.title.value|default:"" }}'>
           {% if form.title.errors %}
           <div class="invalid-feedback">{{ form.title.errors }}</div>
           {% endif %}
